@@ -34,7 +34,7 @@ function results(q) {
             temp.innerHTML = `<span>°c</span>`;
 
             let weather_el = document.querySelector('.current .weather');
-            weather_el.innerText = `Тренутно време`;
+            weather_el.innerText = `Тренутна прогноза`;
         }
     }).then(displeyResults)
 };
